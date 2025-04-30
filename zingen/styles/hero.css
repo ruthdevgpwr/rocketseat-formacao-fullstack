@@ -10,7 +10,7 @@
   }
 
   & p {
-    font: var( --font-weight-md) var(--font-size-lg)/1.4 var(--font-family-sanns);
+    font: var( --font-weight-md) var(--font-size-lg) /1.4 var(--font-family-sans);
     color: var(--text-color-secondary);
     margin-top: .5rem;
   }
@@ -23,7 +23,8 @@
 
 @media (width >= 80em) {
   #hero {
-    background-image: url(../assets/bg-hero-desktop.svg) no-repeat bottom center/contain;
+    background: url(../assets/bg-hero-desktop.svg)  no-repeat bottom
+    center/contain;
     padding-bottom: 15rem;
 
     & img[src*="music"] {
